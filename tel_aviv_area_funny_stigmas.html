@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_758358508083838334298af7bbaece93 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+             <h3 align="center" style="font-size:20px"><b>מפת אזור תל אביב והסביבה: סטיגמות מצחיקות</b></h3>
+             
+    
+            <div class="folium-map" id="map_758358508083838334298af7bbaece93" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_758358508083838334298af7bbaece93 = L.map(
+                "map_758358508083838334298af7bbaece93",
+                {
+                    center: [32.0853, 34.7818],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74120a0980812887c8e970cb9d18966c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_74120a0980812887c8e970cb9d18966c.addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var marker_0731b703757b7df95357409e31ddca40 = L.marker(
+                [32.0572, 34.7668],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_61b4168035bbd63275e0ab46b5153b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0731b703757b7df95357409e31ddca40.setIcon(icon_61b4168035bbd63275e0ab46b5153b86);
+        
+    
+        var popup_f75575135e2111e98b32267bb2b3fd5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a5dc6515fc3c6914245acd699c80f56 = $(`<div id="html_8a5dc6515fc3c6914245acd699c80f56" style="width: 100.0%; height: 100.0%;"><b>פלורנטין</b><br>היפסטרים עם זקן ואופניים חשמליים</div>`)[0];
+                popup_f75575135e2111e98b32267bb2b3fd5f.setContent(html_8a5dc6515fc3c6914245acd699c80f56);
+            
+        
+
+        marker_0731b703757b7df95357409e31ddca40.bindPopup(popup_f75575135e2111e98b32267bb2b3fd5f)
+        ;
+
+        
+    
+    
+            marker_0731b703757b7df95357409e31ddca40.bindTooltip(
+                `<div>
+                     פלורנטין
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a724353505435f545f8645ad06f5c48 = L.marker(
+                [32.0654, 34.7746],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_0a1f658670911d905350df7684c45469 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a724353505435f545f8645ad06f5c48.setIcon(icon_0a1f658670911d905350df7684c45469);
+        
+    
+        var popup_d09ae025942de621b7f6fddc689fc83c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1b7836b0ee43fd9d4246a946432615 = $(`<div id="html_ef1b7836b0ee43fd9d4246a946432615" style="width: 100.0%; height: 100.0%;"><b>רוטשילד</b><br>סטארטאפיסטים עם קורקינט ולאטה</div>`)[0];
+                popup_d09ae025942de621b7f6fddc689fc83c.setContent(html_ef1b7836b0ee43fd9d4246a946432615);
+            
+        
+
+        marker_4a724353505435f545f8645ad06f5c48.bindPopup(popup_d09ae025942de621b7f6fddc689fc83c)
+        ;
+
+        
+    
+    
+            marker_4a724353505435f545f8645ad06f5c48.bindTooltip(
+                `<div>
+                     רוטשילד
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8884cf11b566883a712a7c50a1d36507 = L.marker(
+                [32.0631, 34.7593],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_95e2564b51b974706d68f44439ce8f85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8884cf11b566883a712a7c50a1d36507.setIcon(icon_95e2564b51b974706d68f44439ce8f85);
+        
+    
+        var popup_606c9c5a27161fe2d41bb26a7e4bbdb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9e5857853381fbf372c83995e99d76e = $(`<div id="html_a9e5857853381fbf372c83995e99d76e" style="width: 100.0%; height: 100.0%;"><b>נווה צדק</b><br>תיירים שמחפשים את ה'תל אביב האמיתית'</div>`)[0];
+                popup_606c9c5a27161fe2d41bb26a7e4bbdb6.setContent(html_a9e5857853381fbf372c83995e99d76e);
+            
+        
+
+        marker_8884cf11b566883a712a7c50a1d36507.bindPopup(popup_606c9c5a27161fe2d41bb26a7e4bbdb6)
+        ;
+
+        
+    
+    
+            marker_8884cf11b566883a712a7c50a1d36507.bindTooltip(
+                `<div>
+                     נווה צדק
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cac71c241cfb38080d2b307390d4669 = L.marker(
+                [32.0714, 34.7747],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_e737ffe359ca7bbbd95db2ac90b291cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6cac71c241cfb38080d2b307390d4669.setIcon(icon_e737ffe359ca7bbbd95db2ac90b291cf);
+        
+    
+        var popup_5d27003699db7be62ab2178fd3820874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_406c083457d15155965549cf024011c4 = $(`<div id="html_406c083457d15155965549cf024011c4" style="width: 100.0%; height: 100.0%;"><b>שינקין</b><br>אנשי אופנה שמדברים רק על שופינג</div>`)[0];
+                popup_5d27003699db7be62ab2178fd3820874.setContent(html_406c083457d15155965549cf024011c4);
+            
+        
+
+        marker_6cac71c241cfb38080d2b307390d4669.bindPopup(popup_5d27003699db7be62ab2178fd3820874)
+        ;
+
+        
+    
+    
+            marker_6cac71c241cfb38080d2b307390d4669.bindTooltip(
+                `<div>
+                     שינקין
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c64ec137d1db1c623640714cdb8e74fe = L.marker(
+                [32.0873, 34.7741],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_eb6b46260a4d4005795c193775fd0df5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c64ec137d1db1c623640714cdb8e74fe.setIcon(icon_eb6b46260a4d4005795c193775fd0df5);
+        
+    
+        var popup_006addd8a21968ea2f6b8222e09f3b4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa9c8dd5f685efe2c84f9c5c141d6d6 = $(`<div id="html_faa9c8dd5f685efe2c84f9c5c141d6d6" style="width: 100.0%; height: 100.0%;"><b>הצפון הישן</b><br>אנשים שמתלוננים על הרעש מהמסעדה ממול</div>`)[0];
+                popup_006addd8a21968ea2f6b8222e09f3b4e.setContent(html_faa9c8dd5f685efe2c84f9c5c141d6d6);
+            
+        
+
+        marker_c64ec137d1db1c623640714cdb8e74fe.bindPopup(popup_006addd8a21968ea2f6b8222e09f3b4e)
+        ;
+
+        
+    
+    
+            marker_c64ec137d1db1c623640714cdb8e74fe.bindTooltip(
+                `<div>
+                     הצפון הישן
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_600ab0b8b25e08e3cecb3964247c39e5 = L.marker(
+                [32.0949, 34.7929],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_f36cb53a48478ef9d8eb5f52b0331b20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_600ab0b8b25e08e3cecb3964247c39e5.setIcon(icon_f36cb53a48478ef9d8eb5f52b0331b20);
+        
+    
+        var popup_933f06b94084ea673fc0314b19c6a284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a62827c74bbba001a788bc1ecf17ac9a = $(`<div id="html_a62827c74bbba001a788bc1ecf17ac9a" style="width: 100.0%; height: 100.0%;"><b>הצפון החדש</b><br>משפחות שמתחרות על מי יש את הילד הכי מחונן</div>`)[0];
+                popup_933f06b94084ea673fc0314b19c6a284.setContent(html_a62827c74bbba001a788bc1ecf17ac9a);
+            
+        
+
+        marker_600ab0b8b25e08e3cecb3964247c39e5.bindPopup(popup_933f06b94084ea673fc0314b19c6a284)
+        ;
+
+        
+    
+    
+            marker_600ab0b8b25e08e3cecb3964247c39e5.bindTooltip(
+                `<div>
+                     הצפון החדש
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4895c1ba0c6fb7db891fc7bc33c4dcee = L.marker(
+                [32.0682, 34.7688],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_fe0ce61cc634caf9601f18cb5e7af9bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4895c1ba0c6fb7db891fc7bc33c4dcee.setIcon(icon_fe0ce61cc634caf9601f18cb5e7af9bc);
+        
+    
+        var popup_7e27c2334dd2e733614a5d3d0c8f73c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693f67793fd37eefd2179cfceb03e8d1 = $(`<div id="html_693f67793fd37eefd2179cfceb03e8d1" style="width: 100.0%; height: 100.0%;"><b>כרם התימנים</b><br>היפסטרים שמנסים להיות אותנטיים</div>`)[0];
+                popup_7e27c2334dd2e733614a5d3d0c8f73c0.setContent(html_693f67793fd37eefd2179cfceb03e8d1);
+            
+        
+
+        marker_4895c1ba0c6fb7db891fc7bc33c4dcee.bindPopup(popup_7e27c2334dd2e733614a5d3d0c8f73c0)
+        ;
+
+        
+    
+    
+            marker_4895c1ba0c6fb7db891fc7bc33c4dcee.bindTooltip(
+                `<div>
+                     כרם התימנים
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f26c9367d5ea72ea4bcb2a45f126ff0f = L.marker(
+                [32.068, 34.7685],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_43e7a94b9eaaf0fa6894ed8d8be5ea00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f26c9367d5ea72ea4bcb2a45f126ff0f.setIcon(icon_43e7a94b9eaaf0fa6894ed8d8be5ea00);
+        
+    
+        var popup_373fdc3db2de10310e5ad7bd64b9fd84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae76cac483a53dc6406b0298d910836 = $(`<div id="html_2ae76cac483a53dc6406b0298d910836" style="width: 100.0%; height: 100.0%;"><b>שוק הכרמל</b><br>מקום שבו כולם צועקים 'הכי טרי, הכי זול!'</div>`)[0];
+                popup_373fdc3db2de10310e5ad7bd64b9fd84.setContent(html_2ae76cac483a53dc6406b0298d910836);
+            
+        
+
+        marker_f26c9367d5ea72ea4bcb2a45f126ff0f.bindPopup(popup_373fdc3db2de10310e5ad7bd64b9fd84)
+        ;
+
+        
+    
+    
+            marker_f26c9367d5ea72ea4bcb2a45f126ff0f.bindTooltip(
+                `<div>
+                     שוק הכרמל
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c63bd0a03bc21a6e9af5c32d7553ee61 = L.marker(
+                [32.053, 34.7512],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_760cc478f3348d566232ef318824af10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c63bd0a03bc21a6e9af5c32d7553ee61.setIcon(icon_760cc478f3348d566232ef318824af10);
+        
+    
+        var popup_ad4a3c8b7c3986e092f2cfaab36c7cf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6730862d783e4c7bda5fc22ecde3ed3f = $(`<div id="html_6730862d783e4c7bda5fc22ecde3ed3f" style="width: 100.0%; height: 100.0%;"><b>יפו</b><br>אמנים שמציירים את הים כל יום</div>`)[0];
+                popup_ad4a3c8b7c3986e092f2cfaab36c7cf9.setContent(html_6730862d783e4c7bda5fc22ecde3ed3f);
+            
+        
+
+        marker_c63bd0a03bc21a6e9af5c32d7553ee61.bindPopup(popup_ad4a3c8b7c3986e092f2cfaab36c7cf9)
+        ;
+
+        
+    
+    
+            marker_c63bd0a03bc21a6e9af5c32d7553ee61.bindTooltip(
+                `<div>
+                     יפו
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bd3a076d3d64812bfe9a807e2b706c2 = L.marker(
+                [32.0981, 34.7738],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_b947f9c7db7fd25a8bef5cd6bf98dfb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2bd3a076d3d64812bfe9a807e2b706c2.setIcon(icon_b947f9c7db7fd25a8bef5cd6bf98dfb6);
+        
+    
+        var popup_0a3a1e32cc535aed1c42837e9c1296cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f889025fe79001c74df2afe95006157 = $(`<div id="html_4f889025fe79001c74df2afe95006157" style="width: 100.0%; height: 100.0%;"><b>תל אביב פורט</b><br>אנשים שחושבים שהם גרים בניו יורק</div>`)[0];
+                popup_0a3a1e32cc535aed1c42837e9c1296cf.setContent(html_4f889025fe79001c74df2afe95006157);
+            
+        
+
+        marker_2bd3a076d3d64812bfe9a807e2b706c2.bindPopup(popup_0a3a1e32cc535aed1c42837e9c1296cf)
+        ;
+
+        
+    
+    
+            marker_2bd3a076d3d64812bfe9a807e2b706c2.bindTooltip(
+                `<div>
+                     תל אביב פורט
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1debed4a1c8c6f53b58603e0bad4bc51 = L.marker(
+                [32.0995, 34.8058],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_5d147d5709b9769a000c02e7962b4ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1debed4a1c8c6f53b58603e0bad4bc51.setIcon(icon_5d147d5709b9769a000c02e7962b4ec4);
+        
+    
+        var popup_3cddad93a112ace0d5bf6fc2e01e8794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2434ee1c5a3da8ffd55cd5e967d4d1f9 = $(`<div id="html_2434ee1c5a3da8ffd55cd5e967d4d1f9" style="width: 100.0%; height: 100.0%;"><b>פארק הירקון</b><br>רצים שמתלבשים כאילו הם באולימפיאדה</div>`)[0];
+                popup_3cddad93a112ace0d5bf6fc2e01e8794.setContent(html_2434ee1c5a3da8ffd55cd5e967d4d1f9);
+            
+        
+
+        marker_1debed4a1c8c6f53b58603e0bad4bc51.bindPopup(popup_3cddad93a112ace0d5bf6fc2e01e8794)
+        ;
+
+        
+    
+    
+            marker_1debed4a1c8c6f53b58603e0bad4bc51.bindTooltip(
+                `<div>
+                     פארק הירקון
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88ad5388613cb8865e090bc9722afa79 = L.marker(
+                [32.1116, 34.7959],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_66710fe67ebdf21cebced21418cea4dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88ad5388613cb8865e090bc9722afa79.setIcon(icon_66710fe67ebdf21cebced21418cea4dc);
+        
+    
+        var popup_ab8d165ce723c6461258b7f28f98c247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ac3a5d8322d5bb4815cf425c0533f2 = $(`<div id="html_28ac3a5d8322d5bb4815cf425c0533f2" style="width: 100.0%; height: 100.0%;"><b>רמת אביב</b><br>הורים שמתחרים על מי שולח את הילדים לחוג היקר ביותר</div>`)[0];
+                popup_ab8d165ce723c6461258b7f28f98c247.setContent(html_28ac3a5d8322d5bb4815cf425c0533f2);
+            
+        
+
+        marker_88ad5388613cb8865e090bc9722afa79.bindPopup(popup_ab8d165ce723c6461258b7f28f98c247)
+        ;
+
+        
+    
+    
+            marker_88ad5388613cb8865e090bc9722afa79.bindTooltip(
+                `<div>
+                     רמת אביב
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31826c4ece9457737d13253b3968e42f = L.marker(
+                [32.0496, 34.7504],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_4934770447419f966f4dabb237884ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31826c4ece9457737d13253b3968e42f.setIcon(icon_4934770447419f966f4dabb237884ca8);
+        
+    
+        var popup_5b63d8929c3c62030c46b219d8d7b62c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe03d2ec663cf228508d84ce3c5b1185 = $(`<div id="html_fe03d2ec663cf228508d84ce3c5b1185" style="width: 100.0%; height: 100.0%;"><b>עג'מי</b><br>מקום שבו כל בית שני הוא גלריה או מסעדת שף</div>`)[0];
+                popup_5b63d8929c3c62030c46b219d8d7b62c.setContent(html_fe03d2ec663cf228508d84ce3c5b1185);
+            
+        
+
+        marker_31826c4ece9457737d13253b3968e42f.bindPopup(popup_5b63d8929c3c62030c46b219d8d7b62c)
+        ;
+
+        
+    
+    
+            marker_31826c4ece9457737d13253b3968e42f.bindTooltip(
+                `<div>
+                     עג'מי
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5eeff81bd24423e8a21982938507a26a = L.marker(
+                [32.0564, 34.7818],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_d34117d016ef9bbf1671ad5d48e8c0b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5eeff81bd24423e8a21982938507a26a.setIcon(icon_d34117d016ef9bbf1671ad5d48e8c0b9);
+        
+    
+        var popup_921b0d0e3c59991f183f5321ef3feefe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7197ede9395a28ec7e3a142cb13553d = $(`<div id="html_c7197ede9395a28ec7e3a142cb13553d" style="width: 100.0%; height: 100.0%;"><b>נווה שאנן</b><br>תחנה מרכזית שהפכה לשכונה</div>`)[0];
+                popup_921b0d0e3c59991f183f5321ef3feefe.setContent(html_c7197ede9395a28ec7e3a142cb13553d);
+            
+        
+
+        marker_5eeff81bd24423e8a21982938507a26a.bindPopup(popup_921b0d0e3c59991f183f5321ef3feefe)
+        ;
+
+        
+    
+    
+            marker_5eeff81bd24423e8a21982938507a26a.bindTooltip(
+                `<div>
+                     נווה שאנן
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5636aa247ef88b30a4dc61d513c715ec = L.marker(
+                [32.0625, 34.7846],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_05fb8a8c5915276d61793a205ae5d990 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5636aa247ef88b30a4dc61d513c715ec.setIcon(icon_05fb8a8c5915276d61793a205ae5d990);
+        
+    
+        var popup_6b7cdcec4e52aa2ef2be1a0681923aba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a380c5c291eee8160ece975a4eace8d = $(`<div id="html_2a380c5c291eee8160ece975a4eace8d" style="width: 100.0%; height: 100.0%;"><b>מונטיפיורי</b><br>היי-טקיסטים שמנסים להיות אמנים בזמן הפנוי</div>`)[0];
+                popup_6b7cdcec4e52aa2ef2be1a0681923aba.setContent(html_2a380c5c291eee8160ece975a4eace8d);
+            
+        
+
+        marker_5636aa247ef88b30a4dc61d513c715ec.bindPopup(popup_6b7cdcec4e52aa2ef2be1a0681923aba)
+        ;
+
+        
+    
+    
+            marker_5636aa247ef88b30a4dc61d513c715ec.bindTooltip(
+                `<div>
+                     מונטיפיורי
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c107bd9bc4745acd96117561b9752d8 = L.marker(
+                [32.0476, 34.7755],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_0f74515139aee1c469d84f91323a1d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c107bd9bc4745acd96117561b9752d8.setIcon(icon_0f74515139aee1c469d84f91323a1d68);
+        
+    
+        var popup_fbf2ac3a0dd76762901c6e9b991f2f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef127bcf00e35f44ae2f34c6c0eb2626 = $(`<div id="html_ef127bcf00e35f44ae2f34c6c0eb2626" style="width: 100.0%; height: 100.0%;"><b>שפירא</b><br>השכונה הבאה שתהפוך ל'היפסטרית'</div>`)[0];
+                popup_fbf2ac3a0dd76762901c6e9b991f2f13.setContent(html_ef127bcf00e35f44ae2f34c6c0eb2626);
+            
+        
+
+        marker_2c107bd9bc4745acd96117561b9752d8.bindPopup(popup_fbf2ac3a0dd76762901c6e9b991f2f13)
+        ;
+
+        
+    
+    
+            marker_2c107bd9bc4745acd96117561b9752d8.bindTooltip(
+                `<div>
+                     שפירא
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b19da415c048eb45597a91efdbfba15c = L.marker(
+                [32.0476, 34.7932],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_d5fed0ca2808e347e920d6ca516fa6fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b19da415c048eb45597a91efdbfba15c.setIcon(icon_d5fed0ca2808e347e920d6ca516fa6fd);
+        
+    
+        var popup_8a4e54f7183f508ee9a72f70e922fdd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b883a4b4709396c33855d0f536d8e82 = $(`<div id="html_3b883a4b4709396c33855d0f536d8e82" style="width: 100.0%; height: 100.0%;"><b>התקווה</b><br>המקום היחיד בתל אביב שעדיין אפשר לקנות בו פלאפל ב-5 שקלים</div>`)[0];
+                popup_8a4e54f7183f508ee9a72f70e922fdd7.setContent(html_3b883a4b4709396c33855d0f536d8e82);
+            
+        
+
+        marker_b19da415c048eb45597a91efdbfba15c.bindPopup(popup_8a4e54f7183f508ee9a72f70e922fdd7)
+        ;
+
+        
+    
+    
+            marker_b19da415c048eb45597a91efdbfba15c.bindTooltip(
+                `<div>
+                     התקווה
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b15dd5bb71e28f05071b4a393c76426 = L.marker(
+                [32.0385, 34.8067],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_48f257556aea69207a8e9f991046f569 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b15dd5bb71e28f05071b4a393c76426.setIcon(icon_48f257556aea69207a8e9f991046f569);
+        
+    
+        var popup_e4085a826ec0cb207fda4e00dfc69106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6467f86ffa6dbeb8014ed223a18f7526 = $(`<div id="html_6467f86ffa6dbeb8014ed223a18f7526" style="width: 100.0%; height: 100.0%;"><b>כפר שלם</b><br>אנשים שעדיין מתווכחים אם הם בתל אביב או לא</div>`)[0];
+                popup_e4085a826ec0cb207fda4e00dfc69106.setContent(html_6467f86ffa6dbeb8014ed223a18f7526);
+            
+        
+
+        marker_8b15dd5bb71e28f05071b4a393c76426.bindPopup(popup_e4085a826ec0cb207fda4e00dfc69106)
+        ;
+
+        
+    
+    
+            marker_8b15dd5bb71e28f05071b4a393c76426.bindTooltip(
+                `<div>
+                     כפר שלם
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03fae5f3fbfb98f43e5b4bf253f6ac9d = L.marker(
+                [32.164, 34.8076],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_739a79c75d09513b6db979643ddb2053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_03fae5f3fbfb98f43e5b4bf253f6ac9d.setIcon(icon_739a79c75d09513b6db979643ddb2053);
+        
+    
+        var popup_39ee799f793bc63d9450f78381c11133 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95245dc23752a3b2cd0e1804925130cc = $(`<div id="html_95245dc23752a3b2cd0e1804925130cc" style="width: 100.0%; height: 100.0%;"><b>הרצליה פיתוח</b><br>אנשים שחושבים שהם גרים בסיליקון ואלי</div>`)[0];
+                popup_39ee799f793bc63d9450f78381c11133.setContent(html_95245dc23752a3b2cd0e1804925130cc);
+            
+        
+
+        marker_03fae5f3fbfb98f43e5b4bf253f6ac9d.bindPopup(popup_39ee799f793bc63d9450f78381c11133)
+        ;
+
+        
+    
+    
+            marker_03fae5f3fbfb98f43e5b4bf253f6ac9d.bindTooltip(
+                `<div>
+                     הרצליה פיתוח
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d01c281b1499e1d7c377c4614714b79 = L.marker(
+                [32.1836, 34.8739],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_cf43aff3fd16a9e4517fac02ba63649b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d01c281b1499e1d7c377c4614714b79.setIcon(icon_cf43aff3fd16a9e4517fac02ba63649b);
+        
+    
+        var popup_ef9f62927884ef88ff81f0db156c7a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b0e9d2ad7000a1cde33cb91ce378482 = $(`<div id="html_5b0e9d2ad7000a1cde33cb91ce378482" style="width: 100.0%; height: 100.0%;"><b>רעננה</b><br>המקום שבו כולם נהגים מתחילים</div>`)[0];
+                popup_ef9f62927884ef88ff81f0db156c7a1a.setContent(html_5b0e9d2ad7000a1cde33cb91ce378482);
+            
+        
+
+        marker_9d01c281b1499e1d7c377c4614714b79.bindPopup(popup_ef9f62927884ef88ff81f0db156c7a1a)
+        ;
+
+        
+    
+    
+            marker_9d01c281b1499e1d7c377c4614714b79.bindTooltip(
+                `<div>
+                     רעננה
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5748f146bbf224e506f43c5fbd584571 = L.marker(
+                [32.175, 34.9069],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_4e6abe15e7c6c5a150dde21f55c731be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5748f146bbf224e506f43c5fbd584571.setIcon(icon_4e6abe15e7c6c5a150dde21f55c731be);
+        
+    
+        var popup_89f2bce0f70671eeeb498b630272bc97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_073b033f374a938b14155f8e89047e02 = $(`<div id="html_073b033f374a938b14155f8e89047e02" style="width: 100.0%; height: 100.0%;"><b>כפר סבא</b><br>העיר שכולם חושבים שהיא רעננה</div>`)[0];
+                popup_89f2bce0f70671eeeb498b630272bc97.setContent(html_073b033f374a938b14155f8e89047e02);
+            
+        
+
+        marker_5748f146bbf224e506f43c5fbd584571.bindPopup(popup_89f2bce0f70671eeeb498b630272bc97)
+        ;
+
+        
+    
+    
+            marker_5748f146bbf224e506f43c5fbd584571.bindTooltip(
+                `<div>
+                     כפר סבא
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4975870cf97fc5c68987ebed9968c72e = L.marker(
+                [32.159, 34.8938],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_19536e0882ab9ea573a28e2307a7d7f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4975870cf97fc5c68987ebed9968c72e.setIcon(icon_19536e0882ab9ea573a28e2307a7d7f0);
+        
+    
+        var popup_11502c9f1003943d35699bb87409f3b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83c0f33819bcc5e335917ec809428508 = $(`<div id="html_83c0f33819bcc5e335917ec809428508" style="width: 100.0%; height: 100.0%;"><b>הוד השרון</b><br>אנשים שרצו לגור ברעננה אבל לא היה להם מספיק כסף</div>`)[0];
+                popup_11502c9f1003943d35699bb87409f3b1.setContent(html_83c0f33819bcc5e335917ec809428508);
+            
+        
+
+        marker_4975870cf97fc5c68987ebed9968c72e.bindPopup(popup_11502c9f1003943d35699bb87409f3b1)
+        ;
+
+        
+    
+    
+            marker_4975870cf97fc5c68987ebed9968c72e.bindTooltip(
+                `<div>
+                     הוד השרון
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86c4ac8057da6c7e1e225bd965f09da4 = L.marker(
+                [32.1464, 34.8444],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_5433937fc90e498d2edba99ffddf27ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_86c4ac8057da6c7e1e225bd965f09da4.setIcon(icon_5433937fc90e498d2edba99ffddf27ec);
+        
+    
+        var popup_d70fb11043345bf69f4e7aedd463cefa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cba96b21417169b9eee35617772c2d2 = $(`<div id="html_7cba96b21417169b9eee35617772c2d2" style="width: 100.0%; height: 100.0%;"><b>רמת השרון</b><br>המקום שבו כל בית שני הוא וילה עם בריכה</div>`)[0];
+                popup_d70fb11043345bf69f4e7aedd463cefa.setContent(html_7cba96b21417169b9eee35617772c2d2);
+            
+        
+
+        marker_86c4ac8057da6c7e1e225bd965f09da4.bindPopup(popup_d70fb11043345bf69f4e7aedd463cefa)
+        ;
+
+        
+    
+    
+            marker_86c4ac8057da6c7e1e225bd965f09da4.bindTooltip(
+                `<div>
+                     רמת השרון
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98c1f63a64ea9d445c49028fe53d182a = L.marker(
+                [32.0898, 34.8867],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_8e03c74fb2080d917311e69912d813de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98c1f63a64ea9d445c49028fe53d182a.setIcon(icon_8e03c74fb2080d917311e69912d813de);
+        
+    
+        var popup_346a425aff95ea15a85e8b897e4e820d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd224ea92eed84fdc3c42d930a8e8c31 = $(`<div id="html_cd224ea92eed84fdc3c42d930a8e8c31" style="width: 100.0%; height: 100.0%;"><b>פתח תקווה</b><br>העיר שכולם שוכחים שהיא קיימת</div>`)[0];
+                popup_346a425aff95ea15a85e8b897e4e820d.setContent(html_cd224ea92eed84fdc3c42d930a8e8c31);
+            
+        
+
+        marker_98c1f63a64ea9d445c49028fe53d182a.bindPopup(popup_346a425aff95ea15a85e8b897e4e820d)
+        ;
+
+        
+    
+    
+            marker_98c1f63a64ea9d445c49028fe53d182a.bindTooltip(
+                `<div>
+                     פתח תקווה
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8d79683ec027abd2b8b9ff2cfa82158 = L.marker(
+                [32.0956, 34.9523],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_5233ea5979a5338f24095e8782cf8727 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8d79683ec027abd2b8b9ff2cfa82158.setIcon(icon_5233ea5979a5338f24095e8782cf8727);
+        
+    
+        var popup_163f964c561e90c3ac3eaf3a1895f15c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11719770cc81ac25f32bdeb4a65c3148 = $(`<div id="html_11719770cc81ac25f32bdeb4a65c3148" style="width: 100.0%; height: 100.0%;"><b>ראש העין</b><br>המקום שבו כולם גרים בשכונות חדשות אבל אין להם איפה לעבוד</div>`)[0];
+                popup_163f964c561e90c3ac3eaf3a1895f15c.setContent(html_11719770cc81ac25f32bdeb4a65c3148);
+            
+        
+
+        marker_e8d79683ec027abd2b8b9ff2cfa82158.bindPopup(popup_163f964c561e90c3ac3eaf3a1895f15c)
+        ;
+
+        
+    
+    
+            marker_e8d79683ec027abd2b8b9ff2cfa82158.bindTooltip(
+                `<div>
+                     ראש העין
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8f195444b11ea28ecacb98fc908a71d = L.marker(
+                [32.07, 34.8117],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_3ae2891aa50786159cd6c1dc98097277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8f195444b11ea28ecacb98fc908a71d.setIcon(icon_3ae2891aa50786159cd6c1dc98097277);
+        
+    
+        var popup_a9aa852512f4992ae744463e5f18137e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8cc6872f2745ecccbc59edfda3bbc93 = $(`<div id="html_e8cc6872f2745ecccbc59edfda3bbc93" style="width: 100.0%; height: 100.0%;"><b>גבעתיים</b><br>אנשים שמתגאים שהם לא גרים בתל אביב</div>`)[0];
+                popup_a9aa852512f4992ae744463e5f18137e.setContent(html_e8cc6872f2745ecccbc59edfda3bbc93);
+            
+        
+
+        marker_c8f195444b11ea28ecacb98fc908a71d.bindPopup(popup_a9aa852512f4992ae744463e5f18137e)
+        ;
+
+        
+    
+    
+            marker_c8f195444b11ea28ecacb98fc908a71d.bindTooltip(
+                `<div>
+                     גבעתיים
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0c99ef165e08a1a18d859bf8d56db94 = L.marker(
+                [32.0824, 34.8106],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_c93018b0c043f8542efa718a7d45989f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c0c99ef165e08a1a18d859bf8d56db94.setIcon(icon_c93018b0c043f8542efa718a7d45989f);
+        
+    
+        var popup_3e5e372aa71bb1ae04a462b7b99d079c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e70fd9d847ae1b16a6f5a182206abe4 = $(`<div id="html_4e70fd9d847ae1b16a6f5a182206abe4" style="width: 100.0%; height: 100.0%;"><b>רמת גן</b><br>העיר שחושבת שהיא תל אביב, אבל כולם יודעים שהיא לא</div>`)[0];
+                popup_3e5e372aa71bb1ae04a462b7b99d079c.setContent(html_4e70fd9d847ae1b16a6f5a182206abe4);
+            
+        
+
+        marker_c0c99ef165e08a1a18d859bf8d56db94.bindPopup(popup_3e5e372aa71bb1ae04a462b7b99d079c)
+        ;
+
+        
+    
+    
+            marker_c0c99ef165e08a1a18d859bf8d56db94.bindTooltip(
+                `<div>
+                     רמת גן
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_887390621662837ccba1cd5268da3efe = L.marker(
+                [32.0871, 34.8335],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_82bda2551445f5ce33529bbea4897ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_887390621662837ccba1cd5268da3efe.setIcon(icon_82bda2551445f5ce33529bbea4897ddf);
+        
+    
+        var popup_dd23edab8985a7b6be10030b3d2c17d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_022e2720bde86e4f9311d5065edbc091 = $(`<div id="html_022e2720bde86e4f9311d5065edbc091" style="width: 100.0%; height: 100.0%;"><b>בני ברק</b><br>המקום שבו השבת מתחילה ביום חמישי</div>`)[0];
+                popup_dd23edab8985a7b6be10030b3d2c17d7.setContent(html_022e2720bde86e4f9311d5065edbc091);
+            
+        
+
+        marker_887390621662837ccba1cd5268da3efe.bindPopup(popup_dd23edab8985a7b6be10030b3d2c17d7)
+        ;
+
+        
+    
+    
+            marker_887390621662837ccba1cd5268da3efe.bindTooltip(
+                `<div>
+                     בני ברק
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f57b12705158fc7b987ae75b606da23 = L.marker(
+                [32.028, 34.8542],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_bf8d7d3e9ae0376609784dcd60bf149d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f57b12705158fc7b987ae75b606da23.setIcon(icon_bf8d7d3e9ae0376609784dcd60bf149d);
+        
+    
+        var popup_3df4e34617e503d7632fc88d6c89adb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e5b29d311661254c2060069dba1c62f = $(`<div id="html_3e5b29d311661254c2060069dba1c62f" style="width: 100.0%; height: 100.0%;"><b>אור יהודה</b><br>העיר שכולם עוברים דרכה בדרך לשדה התעופה</div>`)[0];
+                popup_3df4e34617e503d7632fc88d6c89adb7.setContent(html_3e5b29d311661254c2060069dba1c62f);
+            
+        
+
+        marker_0f57b12705158fc7b987ae75b606da23.bindPopup(popup_3df4e34617e503d7632fc88d6c89adb7)
+        ;
+
+        
+    
+    
+            marker_0f57b12705158fc7b987ae75b606da23.bindTooltip(
+                `<div>
+                     אור יהודה
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_883709566aa3b7ce649c1be790b009fc = L.marker(
+                [32.0331, 34.8909],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_91cfa51bc7d9c314a5e216512f4918e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_883709566aa3b7ce649c1be790b009fc.setIcon(icon_91cfa51bc7d9c314a5e216512f4918e4);
+        
+    
+        var popup_9cc95e5ec01ad33d4bf1d89673599452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6382a6fee27737ab18f283205a921a37 = $(`<div id="html_6382a6fee27737ab18f283205a921a37" style="width: 100.0%; height: 100.0%;"><b>יהוד</b><br>העיר שתמיד מתבלבלים בינה לבין אור יהודה</div>`)[0];
+                popup_9cc95e5ec01ad33d4bf1d89673599452.setContent(html_6382a6fee27737ab18f283205a921a37);
+            
+        
+
+        marker_883709566aa3b7ce649c1be790b009fc.bindPopup(popup_9cc95e5ec01ad33d4bf1d89673599452)
+        ;
+
+        
+    
+    
+            marker_883709566aa3b7ce649c1be790b009fc.bindTooltip(
+                `<div>
+                     יהוד
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b96390535ad1987adbd053303306aa3b = L.marker(
+                [32.0636, 34.8553],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_52d8f50584ece26fdde9b6b54e9e2400 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b96390535ad1987adbd053303306aa3b.setIcon(icon_52d8f50584ece26fdde9b6b54e9e2400);
+        
+    
+        var popup_66ff4dfa3c4d648eefed09734d5e8924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_680354299ee0359489da0cca743791a2 = $(`<div id="html_680354299ee0359489da0cca743791a2" style="width: 100.0%; height: 100.0%;"><b>קריית אונו</b><br>המקום שבו כולם גרים בדירות זהות</div>`)[0];
+                popup_66ff4dfa3c4d648eefed09734d5e8924.setContent(html_680354299ee0359489da0cca743791a2);
+            
+        
+
+        marker_b96390535ad1987adbd053303306aa3b.bindPopup(popup_66ff4dfa3c4d648eefed09734d5e8924)
+        ;
+
+        
+    
+    
+            marker_b96390535ad1987adbd053303306aa3b.bindTooltip(
+                `<div>
+                     קריית אונו
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c94a664ec6fb790cf1c060f7afb78e46 = L.marker(
+                [32.0232, 34.7449],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_2050d5aa05c969772ae95a633b027fb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c94a664ec6fb790cf1c060f7afb78e46.setIcon(icon_2050d5aa05c969772ae95a633b027fb0);
+        
+    
+        var popup_6a4b3a64275e6fc6d94877bd77721c95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80396b5d2dcae1f570a1c936f870d4d0 = $(`<div id="html_80396b5d2dcae1f570a1c936f870d4d0" style="width: 100.0%; height: 100.0%;"><b>בת ים</b><br>חוף הים של מי שלא רוצה להידחף בתל אביב</div>`)[0];
+                popup_6a4b3a64275e6fc6d94877bd77721c95.setContent(html_80396b5d2dcae1f570a1c936f870d4d0);
+            
+        
+
+        marker_c94a664ec6fb790cf1c060f7afb78e46.bindPopup(popup_6a4b3a64275e6fc6d94877bd77721c95)
+        ;
+
+        
+    
+    
+            marker_c94a664ec6fb790cf1c060f7afb78e46.bindTooltip(
+                `<div>
+                     בת ים
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab4404b6a25d2cc3fed1dfc101c1e703 = L.marker(
+                [32.0167, 34.7792],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_f00b0de84746e1cbd1561f7fe9836c30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab4404b6a25d2cc3fed1dfc101c1e703.setIcon(icon_f00b0de84746e1cbd1561f7fe9836c30);
+        
+    
+        var popup_7f064a2b532c928d8edd76c3fac3aa4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3edcbabc4489236403196029180655d = $(`<div id="html_d3edcbabc4489236403196029180655d" style="width: 100.0%; height: 100.0%;"><b>חולון</b><br>העיר של הילדים (ושל המבוגרים שמרגישים כמו ילדים)</div>`)[0];
+                popup_7f064a2b532c928d8edd76c3fac3aa4a.setContent(html_d3edcbabc4489236403196029180655d);
+            
+        
+
+        marker_ab4404b6a25d2cc3fed1dfc101c1e703.bindPopup(popup_7f064a2b532c928d8edd76c3fac3aa4a)
+        ;
+
+        
+    
+    
+            marker_ab4404b6a25d2cc3fed1dfc101c1e703.bindTooltip(
+                `<div>
+                     חולון
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac2dd7b68b5c3941042686f20a079e72 = L.marker(
+                [32.0209, 34.8062],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_8a8db04690c8c3a08ba2bd9d995d5804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac2dd7b68b5c3941042686f20a079e72.setIcon(icon_8a8db04690c8c3a08ba2bd9d995d5804);
+        
+    
+        var popup_5938449e7578dd6b1cc79be670a20f8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ce70988b0027279de4680b67ac1b277 = $(`<div id="html_2ce70988b0027279de4680b67ac1b277" style="width: 100.0%; height: 100.0%;"><b>אזור</b><br>העיר שאף אחד לא בטוח איפה היא נמצאת</div>`)[0];
+                popup_5938449e7578dd6b1cc79be670a20f8f.setContent(html_2ce70988b0027279de4680b67ac1b277);
+            
+        
+
+        marker_ac2dd7b68b5c3941042686f20a079e72.bindPopup(popup_5938449e7578dd6b1cc79be670a20f8f)
+        ;
+
+        
+    
+    
+            marker_ac2dd7b68b5c3941042686f20a079e72.bindTooltip(
+                `<div>
+                     אזור
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_675597d08b162d73ae01968bdb726257 = L.marker(
+                [31.9686, 34.8019],
+                {}
+            ).addTo(map_758358508083838334298af7bbaece93);
+        
+    
+            var icon_92d85e370cab7530007b950e0b9f7410 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_675597d08b162d73ae01968bdb726257.setIcon(icon_92d85e370cab7530007b950e0b9f7410);
+        
+    
+        var popup_1f4ea7d504107f6dc8aa921e2f86f42b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc9994bbdf9254c0ccf84a74a214fef8 = $(`<div id="html_cc9994bbdf9254c0ccf84a74a214fef8" style="width: 100.0%; height: 100.0%;"><b>ראשון לציון</b><br>העיר הכי גדולה שאף אחד לא יודע מה יש בה</div>`)[0];
+                popup_1f4ea7d504107f6dc8aa921e2f86f42b.setContent(html_cc9994bbdf9254c0ccf84a74a214fef8);
+            
+        
+
+        marker_675597d08b162d73ae01968bdb726257.bindPopup(popup_1f4ea7d504107f6dc8aa921e2f86f42b)
+        ;
+
+        
+    
+    
+            marker_675597d08b162d73ae01968bdb726257.bindTooltip(
+                `<div>
+                     ראשון לציון
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
